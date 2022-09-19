@@ -40,10 +40,10 @@ function devolverString(str) {
     // De lo contrario, devuelve "false"
     // Tu código:
     if(x === y){
-      return (true);
+      return true
     }
     else{
-      return(false);
+      return false
     }
   }
   
@@ -93,7 +93,7 @@ function devolverString(str) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
     // Tu código:
-    if ((num % 2) == 0){
+    if ((num % 2) === 0){
       return(true);
     }
     else{
@@ -105,7 +105,7 @@ function devolverString(str) {
     // Devuelve "true" si "num" es impar
     // De lo contrario, devuelve "false"
     // Tu código:
-    if ((num % 2) != 0){
+    if ((num % 2) !== 0){
       return(true);
     }
     else{
