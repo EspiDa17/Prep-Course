@@ -103,11 +103,11 @@ function sumaArray(array){
 function numeroDigitos(num){
   // Devuelve el número de dígitos de un número dado
   // Tu código:
-  //Forma 1:
+  //Método 1:
   /* var digitos = Array.from(String(num))
   return(digitos.length) */
 
-  //Forma 2:
+  //Método 2:
   return num.toString().length
 }
   
